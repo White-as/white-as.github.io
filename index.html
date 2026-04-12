@@ -71,6 +71,7 @@ button:hover {
 const originalCars = [
   {
     name: "Audi 100",
+    owner: "Diani",
     price: 60000,
     hp: 510,
     img: "https://talpix.lt/uploads/69db9be0b7b53.jpeg"
@@ -113,6 +114,7 @@ function render() {
     div.innerHTML = `
       <img src="${car.img}" alt="${car.name}" />
       <div class="title">${car.name}</div>
+      <div class="info">Owner: ${car.owner}</div>
       <div class="info">Price: €${car.price}</div>
       <div class="info">HP: ${car.hp}</div>
     `;

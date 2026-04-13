@@ -27,7 +27,7 @@ function sortByPrice() {
 }
 
 function sortByHP() {
-  currentCars.sort((a, b) => b.hp - a.hp);
+  currentCars.sort((a, b) => b.kw - a.kw);
   render();
 }
 

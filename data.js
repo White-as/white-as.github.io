@@ -39,5 +39,13 @@ const cars = [
     kw: 500,
     odo: 0,
     img: "http://talpix.lt/uploads/69dba07134179.jpeg"
+  },
+  {
+   name: "Honda",
+    owner: "Alexi",
+    price: 666,
+    kw: 2,
+    odo: 0,
+    img: "http://talpix.lt/uploads/69dcedc21e3d4.jpeg"
   }
 ];

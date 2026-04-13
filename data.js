@@ -1,9 +1,38 @@
-const cars = [
+
+const originalCars = [
   {
-    name: "BMW M3",
-    owner: "Tomas",
-    price: 60000,
+    name: "Audi 100",
+    owner: "Diani",
+    price: 500,
     hp: 510,
-    img: "https://..."
+    img: "https://talpix.lt/uploads/69db9be0b7b53.jpeg"
+  },
+  {
+    name: "Mercedes Pimp",
+    owner: "Piet",
+    price: 90000,
+    hp: 66,
+    img: "http://talpix.lt/uploads/69db9f64441aa.jpeg"
+  },
+  {
+    name: "Audi Q5",
+    owner: "Andrius",
+    price: 15000,
+    hp: 450,
+    img: "http://talpix.lt/uploads/69dba261045fe.jpg"
+  },
+  {
+    name: "Asfalt machine",
+    owner: "Niko",
+    price: 30000,
+    hp: 2045,
+    img: "http://talpix.lt/uploads/69dba2dde8103.jpeg"
+  },
+  {
+    name: "Mercedes C63",
+    owner: "Arian",
+    price: 100,
+    hp: 500,
+    img: "http://talpix.lt/uploads/69dba07134179.jpeg"
   }
 ];

@@ -17,38 +17,57 @@
     }
 
     .card img {
-     width: 40%;
-     height: 250px;
-     object-fit: cover;
-     border-radius: 8px;
-   }
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
 
+    /* Rank number */
     .card::before {
-      content: counter(item) ".";
+      content: counter(item);
+      counter-increment: item;
       position: absolute;
-      left: 10px;
-      top: 10px;
+      left: 12px;
+      top: 12px;
       font-weight: bold;
+      font-size: 18px;
       color: #aaa;
+    }
+
+    /* Top 3 highlighting */
+    .card:nth-child(1) {
+      border: 2px solid gold;
+    }
+
+    .card:nth-child(2) {
+      border: 2px solid silver;
+    }
+
+    .card:nth-child(3) {
+      border: 2px solid #cd7f32; /* bronze */
     }
 
     img {
       width: 100%;
-      height: 120px;
+      height: 180px;
       object-fit: cover;
       border-radius: 8px;
+      margin-bottom: 8px;
     }
-  </style>
-</head>
-<body>
 
-<h2>Cars</h2>
-<button onclick="sortByPrice()">Sort by Price</button> <button onclick="sortByHP()">Sort by HP</button>
-<button onclick="resetData()">Reset</button>
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
 
-<div id="list" class="container"></div>
-<script src="data.js"></script>
-<script src="script.js"></script>
+    .info {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style></head>
+<body><h2>Cars ranking</h2><button onclick="sortByPrice()">Sort by Price</button> <button onclick="sortByHP()">Sort by HP</button> <button onclick="resetData()">Reset</button>
 
-</body>
+<div id="list" class="container"></div><script src="data.js"></script><script src="script.js"></script></body>
 </html>

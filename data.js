@@ -1,5 +1,5 @@
 
-const originalCars = [
+const cars = [
   {
     name: "Audi 100",
     owner: "Diani",

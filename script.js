@@ -12,8 +12,8 @@ function render() {
       <img src="${car.img}" />
       <div>${car.name}</div>
       <div>Owner: ${car.owner}</div>
-      <div>Kw: ${car.power} kW</div>
-      <div>Odo: ${car.odometer} Km</div>
+      <div>Power: ${car.power} kW</div>
+      <div>Odometer: ${car.odometer} Km</div>
       <div>Price: ${car.price} €</div>
     `;
 

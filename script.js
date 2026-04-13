@@ -22,7 +22,7 @@ function render() {
 }
 
 function sortByPrice() {
-  currentCars.sort((a, b) => a.price - b.price);
+  currentCars.sort((a, b) => b.price - a.price);
   render();
 }
 

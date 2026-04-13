@@ -12,9 +12,9 @@ function render() {
       <img src="${car.img}" />
       <div>${car.name}</div>
       <div>Owner: ${car.owner}</div>
-      <div>Kw: ${car.kw}</div>
-      <div>Odo: ${car.odo}</div>
-      <div>Price: €${car.price}</div>
+      <div>Kw: ${car.kw} kW</div>
+      <div>Odo: ${car.odo} Km</div>
+      <div>Price: ${car.price} €</div>
     `;
 
     list.appendChild(div);

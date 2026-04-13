@@ -12,7 +12,7 @@ function render() {
       <img src="${car.img}" />
       <div>${car.name}</div>
       <div>Owner: ${car.owner}</div>
-      <div>HP: ${car.hp}</div>
+      <div>Kw: ${car.kw}</div>
       <div>Odo: ${car.odo}</div>
       <div>Price: €${car.price}</div>
     `;

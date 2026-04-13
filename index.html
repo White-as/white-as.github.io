@@ -32,9 +32,9 @@
       border-color: #555;
     }
 
-    /* Rank number (dešinėje) */
+   
     .card::before {
-      content: counter(item);
+      content: "#" counter(item);
       counter-increment: item;
       position: absolute;
       right: 12px;
@@ -44,7 +44,7 @@
       color: #aaa;
     }
 
-    /* Top 3 */
+    
     .card:nth-child(1) {
       border: 2px solid gold;
     }

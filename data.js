@@ -5,7 +5,7 @@ const cars = [
     owner: "Diani",
     price: 500,
     power: 510,
-    0-100kmh: 0,
+    zeroTo100: 0,
     img: "https://talpix.lt/uploads/69db9be0b7b53.jpeg"
   },
   {
@@ -13,7 +13,7 @@ const cars = [
     owner: "Piet",
     price: 90000,
     power: 66,
-    0-100kmh: 0,
+    zeroTo100: 0,
     img: "http://talpix.lt/uploads/69db9f64441aa.jpeg"
   },
   {
@@ -21,7 +21,7 @@ const cars = [
     owner: "Andrius",
     price: 15000,
     power: 450,
-    0-100kmh: 0,
+    zeroTo100: 0,
     img: "http://talpix.lt/uploads/69dba261045fe.jpg"
   },
   {
@@ -29,7 +29,7 @@ const cars = [
     owner: "Niko",
     price: 30000,
     power: 2045,
-    0-100kmh: 0,
+    zeroTo100: 0,
     img: "http://talpix.lt/uploads/69dba2dde8103.jpeg"
   },
   {
@@ -37,7 +37,7 @@ const cars = [
     owner: "Arian",
     price: 100,
     power: 500,
-    0-100kmh: 0,
+    zeroTo100: 0,
     img: "http://talpix.lt/uploads/69dba07134179.jpeg"
   },
   {
@@ -45,7 +45,7 @@ const cars = [
     owner: "Alexi",
     price: 666,
     power: 2,
-    0-100kmh: 0,
+    zeroTo100: 0,
     img: "http://talpix.lt/uploads/69dcedc21e3d4.jpeg"
   }
 ];

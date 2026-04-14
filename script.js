@@ -13,7 +13,7 @@ function render() {
       <div>${car.name}</div>
       <div>Owner: ${car.owner}</div>
       <div>Power: ${car.power} kW</div>
-      <div>Odometer: ${car.odometer} Km</div>
+      <div>0-100kmh: ${car.0-100kmh} Sec</div>
       <div>Price: ${car.price} €</div>
     `;
 

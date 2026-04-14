@@ -9,12 +9,20 @@ function render() {
     div.className = "card";
 
     div.innerHTML = `
-      <img src="${car.img}" />
-      <div>${car.name}</div>
-      <div>Owner: ${car.owner}</div>
-      <div>Power: ${car.power} kW</div>
-      <div>0-100kmh: ${car.0-100kmh} Sec</div>
-      <div>Price: ${car.price} €</div>
+      <div class="card-top">
+        <img src="${car.img}" class="car-image" />
+
+        <div class="title-box">
+          <div class="title">${car.name}</div>
+        </div>
+      </div>
+
+      <div class="info-list">
+        <div class="info">Owner: ${car.owner}</div>
+        <div class="info">Power: ${car.power} kW</div>
+        <div class="info">0-100 km/h: ${car.zeroTo100} s</div>
+        <div class="info">Price: €${car.price}</div>
+      </div>
     `;
 
     list.appendChild(div);

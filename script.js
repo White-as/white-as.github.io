@@ -11,7 +11,7 @@ function render() {
     div.innerHTML = `
     <div class="info score">Score: ${(calculateScore(car, currentCars) * 100).toFixed(1)}</div>
       <div class="card-top">
-        <img src="${car.img}" class="car-image" />
+        <img src="${car.img}" class="car-image" onclick="openImage('${car.img}')" />
 
         <div class="title-box">
           <div class="title">${car.name}</div>

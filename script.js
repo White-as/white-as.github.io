@@ -19,6 +19,7 @@ function render() {
 
       <div class="info-list">
         <div class="info">Owner: ${car.owner}</div>
+        <div class="info">Vessel(optional): ${car.vessel}</div>
         <div class="info">Power: ${car.power} kW</div>
         <div class="info">0-100 km/h: ${car.zeroTo100} s</div>
         <div class="info">Price: €${car.price}</div>

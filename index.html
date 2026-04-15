@@ -185,6 +185,7 @@
   <div class="header">
     <img src="images/logo_v1.2.png" class="logo" />
     <div class="logo-text">BOKA Cars</div>
+    <div class= "info">Score: ${(calculateScroe(car, currentcars)*100).toFixed(1)} </div>
   </div>
 
   <h2>Cars ranking</h2>
@@ -193,6 +194,7 @@
     <button onclick="sortByPrice()">Sort by Price</button>
     <button onclick="sortByHP()">Sort by power</button>
     <button onclick="resetData()">Reset</button>
+    <button onclick="shortByScore()">Short By Score</button>
   </div>
 
   <div id="list" class="container"></div>

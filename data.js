@@ -3,6 +3,7 @@ const cars = [
   {
     name: "Audi 100",
     owner: "Diani",
+    vessel: "Fairway",
     price: 500,
     power: 510,
     zeroTo100: 0,
@@ -11,6 +12,7 @@ const cars = [
   {
     name: "Mercedes Pimp",
     owner: "Piet",
+    vessel: "Fairway",
     price: 90000,
     power: 66,
     zeroTo100: 0,
@@ -19,6 +21,7 @@ const cars = [
   {
     name: "Audi Q5",
     owner: "Andrius",
+    vessel: "not Fairway",
     price: 15000,
     power: 450,
     zeroTo100: 0,
@@ -27,6 +30,7 @@ const cars = [
   {
     name: "Asfalt machine",
     owner: "Niko",
+    vessel: "Fairway",
     price: 30000,
     power: 2045,
     zeroTo100: 0,
@@ -35,6 +39,7 @@ const cars = [
   {
     name: "Mercedes C63",
     owner: "Arian",
+    vessel: "Fairway",
     price: 100,
     power: 500,
     zeroTo100: 0,
@@ -43,6 +48,7 @@ const cars = [
   {
    name: "BMW M4",
     owner: "Alexi",
+    vessel: "Fairway",
     price: 666,
     power: 2,
     zeroTo100: 0,

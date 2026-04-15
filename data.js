@@ -6,7 +6,7 @@ const cars = [
     vessel: "Fairway",
     price: 500,
     power: 510,
-    zeroTo100: 0,
+    zeroTo100: 5.55,
     img: "https://talpix.lt/uploads/69db9be0b7b53.jpeg"
   },
   {

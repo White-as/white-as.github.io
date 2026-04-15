@@ -53,5 +53,15 @@ const cars = [
     power: 2,
     zeroTo100: 0,
     img: "http://talpix.lt/uploads/69dcedc21e3d4.jpeg"
+  },
+ {
+   name: "Huffman Model MG",
+    owner: "Chief Ferry",
+    vessel: "Fairway",
+    price: 1000,
+    power: 1,
+    zeroTo100: 0,
+    img: "http://talpix.lt/uploads/69df239433e85.jpg"
   }
+  
 ];

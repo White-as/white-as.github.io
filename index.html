@@ -184,6 +184,37 @@
        .info.score {
           color: #4CAF50;
 }
+
+      .tooltip {
+        position: relative;
+        display: inline-block;
+}
+
+    .tooltip-text {
+      visibility: hidden;
+      width: 220px;
+      background: #222;
+      color: #fff;
+      text-align: left;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #444;
+
+      position: absolute;
+      bottom: 125%; /* virš button */
+      left: 50%;
+      transform: translateX(-50%);
+
+      opacity: 0;
+      transition: 0.2s;
+      font-size: 13px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
       }
     
   </style>

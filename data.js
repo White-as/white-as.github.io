@@ -15,16 +15,16 @@ const cars = [
     vessel: "Fairway",
     price: 90000,
     power: 66,
-    zeroTo100: 0,
+    zeroTo100: 10,
     img: "http://talpix.lt/uploads/69db9f64441aa.jpeg"
   },
   {
     name: "Audi Q5",
-    owner: "Andrius",
+    owner: "AndriusM",
     vessel: "not Fairway",
     price: 15000,
     power: 450,
-    zeroTo100: 0,
+    zeroTo100: 100,
     img: "http://talpix.lt/uploads/69dba261045fe.jpg"
   },
   {

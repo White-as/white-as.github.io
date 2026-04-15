@@ -41,10 +41,7 @@ function sortByHP() {
   render();
 }
 
-function resetData() {
-  currentCars = [...cars];
-  render();
-}
+
 
 function calculateScore(car, cars) {
   const powers = cars.map(c => c.power);

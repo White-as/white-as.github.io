@@ -9,7 +9,7 @@ function render() {
     div.className = "card";
 
     div.innerHTML = `
-    <div class="info">Score: ${(calculateScore(car, currentCars)*100).toFixed(1)} </div>
+    <div class="info">Score: ${(calculateScore(car, currentCars) * 100).toFixed(1)}</div>
       <div class="card-top">
         <img src="${car.img}" class="car-image" />
 

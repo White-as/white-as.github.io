@@ -202,7 +202,14 @@
     <button onclick="sortByPrice()">Sort by Price</button>
     <button onclick="sortByHP()">Sort by power</button>
     <button onclick="resetData()">Reset</button>
-    <button onclick="sortByScore()">Sort By Score</button>
+    <div class="tooltip">
+  <button onclick="sortByScore()">Sort By Score</button>
+  <div class="tooltip-text">
+    Score:
+    Power (25%), Price (35%), 0-100 (40%).
+    *Less price => better score*
+  </div>
+</div>
   </div>
 
   <div id="list" class="container"></div>

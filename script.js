@@ -73,7 +73,7 @@ function calculateScore(car, cars) {
   return total;
 }
 
-  function shortByscore() {
+  function sortByscore() {
     currentCars.sort((a, b) => 
                     calculateScore (b, currentCars) - calculateScore(a, currentCars)); 
     render();

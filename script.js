@@ -75,10 +75,17 @@ function calculateScore(car, cars) {
 }
 
   function sortByScore() {
-    currentCars.sort((a, b) => 
-                    calculateScore (b, currentCars) - calculateScore(a, currentCars)); 
-    render();
-    
-  }
+  const baseCars = [...currentCars];
+
+  currentCars = currentCars
+    .map(car => ({
+      car,
+      score: calculateScore(car, baseCars)
+    }))
+    .sort((a, b) => b.score - a.score)
+    .map(item => item.car);
+
+  render();
+}
 
 render();

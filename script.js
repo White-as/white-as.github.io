@@ -45,4 +45,39 @@ function resetData() {
   render();
 }
 
+function calculateScore(car, cars) {
+  const powers = cars.map(c => c.power);
+  const prices = cars.map(c => c.price);
+  const accs = cars.map(c => c.zeroTo100);
+
+  const minPower = Math.min(...powers);
+  const maxPower = Math.max(...powers);
+
+  const minPrice = Math.min(...prices);
+  const maxPrice = Math.max(...prices);
+
+  const minAcc = Math.min(...accs);
+  const maxAcc = Math.max(...accs);
+
+  const powerScore = (car.power - minPower) / (maxPower - minPower);
+
+  const priceScore = 1 - (car.price - minPrice) / (maxPrice - minPrice);
+
+  const accScore = 1 - (car.zeroTo100 - minAcc) / (maxAcc - minAcc);
+
+  const total =
+    powerScore  * 0.25 +
+    priceScore * 0.35 +
+    accScore * 0.4;
+
+  return total;
+}
+
+  function shortByscore() {
+    currentCars.sort((a, b) => 
+                    calculateScore (b, currentCars) - calculateScore(a, currentCars)); 
+    render();
+    
+  }
+
 render();

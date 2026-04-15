@@ -85,4 +85,23 @@ function calculateScore(car, cars) {
   render();
 }
 
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+const closeBtn = document.querySelector(".close");
+
+function openImage(src) {
+  modal.style.display = "block";
+  modalImg.src = src;
+}
+
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(e) {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+}
+
 render();
